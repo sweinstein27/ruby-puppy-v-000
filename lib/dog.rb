@@ -1,6 +1,6 @@
 require "pry"
 
-class Dog
+class Dog(name)
   @@all = []
 
   def initialize(name)
