@@ -1,6 +1,7 @@
 require "pry"
 
-class Dog(name)
+class Dog
+  attr_accessor :name
   @@all = []
 
   def initialize(name)
